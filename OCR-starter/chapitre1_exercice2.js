@@ -8,21 +8,21 @@ Affichez dans la console les opérations de base avec les nombres 6 et 3 :
 - leur modulo
 Avant d'exécuter le code, devinez à chaque fois le résultat de l'opération
 */
-const nombre1= 6;
-const nombre2= 3;
+const numberOne= 6;
+const numberTwo= 3;
 
 // Somme
-console.log(nombre1+nombre2);//9
+console.log(numberOne+numberTwo);//9
 
 // Différence
-console.log(nombre1-nombre2);//3
+console.log(numberOne-numberTwo);//3
 
 // Multiplication
-console.log(nombre1*nombre2);//18
+console.log(numberOne*numberTwo);//18
 
 // Division
-console.log(nombre1/nombre2);//2
+console.log(numberOne/numberTwo);//2
 
 // Modulo
-console.log(nombre1%nombre2);//0
+console.log(numberOne%numberTwo);//0
 
