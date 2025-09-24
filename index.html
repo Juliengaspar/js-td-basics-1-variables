@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Fondamentaux du langage JavaScript</title>
+    <!-- vue que c'est qqch que les visiteur ne vois pas alors on le mets dans le head mais attention il faux que il lis dabort la page du navigateur et seulment apres il lis le code js (lecture sequenciel) pour dire qu'on veux dabbors regarder le fichier js on vas ajouter des attributs -->
+    <!-- async ==> veux dire qu'on lis la page de maniers assyncrome  == lire le code html et en ||  il lis le code js mais pas de la même maniers mais en fonction de la taille des fichiers ça peux lire le js en 1 puiis le html en 2-->
+    <!-- defer ==> il lis dabort tous la page html puis tous la page js on lie le js quans tous la page html est lu -->
+    <script defer src="OCR-starter/chapitre1_exercice1.js"></script>
 </head>
 
 <body>
     <h1>Section 2: Fondamentaux du langage JavaScript</h1>
-    <script src="OCR-starter/chapitre2_exercice1.js"></script>
+    <!--  balise double on peux mettres du code js a l’interieur mais un mauvaise façon de le faire car on ne mellange pas les langague ==> principe de modularité un fichier = un langague
+    <script></script>
+    -->
+    <!-- balise doublle mais là on lie un fichier js avec un src
+    <script src="OCR-starter/chapitre1_exercice1.js"></script>-->
+
+
+    <!--avans sur html4.0strikt il n’y avais pas le defer alors pour dabort lire le html et puiis le js on le mets a la toutes fins
+    <script defer src="OCR-starter/chapitre1_exercice1.js"></script>-->
 </body>
 </html>
