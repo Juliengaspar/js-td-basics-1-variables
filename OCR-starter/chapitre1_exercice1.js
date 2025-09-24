@@ -4,8 +4,10 @@ Affichez dans la console :
 - votre âge (ce doit être un nombre)
 */
 
+const prenom = "julien"
+const age = 25
 // Votre prénom (chaîne)
-console.log("julien");
+console.log(prenom);
 
 // Votre âge (nombre)
-console.log(23)
+console.log(age)
