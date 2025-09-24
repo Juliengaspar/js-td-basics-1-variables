@@ -10,6 +10,7 @@ Avant d'exécuter le code, devinez à chaque fois le résultat de l'opération
 */
 
 // Somme
+console.log()
 
 // Différence
 
