@@ -10,12 +10,16 @@ Avant d'exécuter le code, devinez à chaque fois le résultat de l'opération
 */
 
 // Somme
-console.log()
+console.log(6+3);//9
 
 // Différence
+console.log(6-3);//3
 
 // Multiplication
+console.log(6*3);//18
 
 // Division
+console.log(6/3);//2
 
 // Modulo
+console.log(6%3);//0
