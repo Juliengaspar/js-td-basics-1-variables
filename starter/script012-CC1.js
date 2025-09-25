@@ -16,3 +16,17 @@
 //    Mark est plus élevé que celui de John ? true").
 //
 // BONNE CHANCE 😀
+const poidsJohn =  parseFloat(prompt("quel est le poids de John kg"));
+const poidsMark = parseFloat(prompt("quel est le poids de Mark kg"));
+const tailleJohn = parseFloat(prompt("quel est la tailles de John M "));
+const tailleMark = parseFloat(prompt("quel est la tailles de Mark M "));
+const bmiJohn = poidsJohn / (tailleJohn*tailleJohn);
+const bmiMark = poidsMark/ (tailleMark*tailleMark);
+let markBimSuperieur;
+if (bmiMark > bmiJohn){
+    markBimSuperieur = true;
+    console.log(`Est-ce que le BMI de Mark ${bmiMark} est plus élevé que celui de John  ${bmiJohn} ? ${markBimSuperieur}`)
+}else {
+    markBimSuperieur = false;
+    console.log(`Est-ce que le BMI de Mark ${bmiMark} est plus élevé que celui de John  ${bmiJohn} ? ${markBimSuperieur}`)
+}
